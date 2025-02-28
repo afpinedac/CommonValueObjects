@@ -40,7 +40,7 @@ composer require afpinedac/common-value-objects
 ### Example: Using `Percentage`
 
 ```php
-use Afpinedac\CommonValueObjects\ValueObjects\Numeric\Percentage;
+use Afpinedac\CommonValueObjects\Numeric\Percentage;
 
 $percentage = new Percentage(0.25);
 echo $percentage->getFormatted(); // Output: 25.00%
@@ -49,7 +49,7 @@ echo $percentage->getFormatted(); // Output: 25.00%
 ### Example: Using `Latitude`
 
 ```php
-use Afpinedac\CommonValueObjects\ValueObjects\Geographic\Latitude;
+use Afpinedac\CommonValueObjects\Geographic\Latitude;
 
 $latitude = new Latitude(40.7128);
 echo $latitude; // Output: 40.7128
