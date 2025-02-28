@@ -25,10 +25,12 @@ composer require afpinedac/common-value-objects
 
 ## 📂 Available Value Objects
 
-| **Class**        | **Description**                             |
-|------------------|---------------------------------------------|
-| **Percentage**   | Represents a percentage value (e.g., 25%)   |
-| **URL**          | Represents a valid URL                      |
+| **Class**      | **Description**                           |
+|----------------|-------------------------------------------|
+| **Percentage** | Represents a percentage value (e.g., 25%) |
+| **URL**        | Represents a valid URL                    |
+| **Email**      | Represents a valid Email                  |
+| **File**       | Represents a File                         |
 
 ---
 

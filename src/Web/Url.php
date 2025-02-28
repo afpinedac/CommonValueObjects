@@ -2,6 +2,8 @@
 
 namespace Afpinedac\CommonValueObjects\Web;
 
+use InvalidArgumentException;
+
 class Url
 {
     public readonly ?string $value;
@@ -24,7 +26,7 @@ class Url
         }
 
         if (!filter_var($value, FILTER_VALIDATE_URL)) {
-            throw new \InvalidArgumentException("The provided value is not a valid URL.");
+            throw new InvalidArgumentException("The provided value is not a valid URL.");
         }
     }
 
