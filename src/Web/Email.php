@@ -8,9 +8,6 @@ class Email
 {
     public readonly string $value;
 
-    /**
-     * Constructor privado para garantizar que sólo se cree a través de métodos estáticos.
-     */
     private function __construct(string $email)
     {
         $this->ensureIsValidEmail($email);
