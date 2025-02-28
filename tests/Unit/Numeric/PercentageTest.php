@@ -2,7 +2,7 @@
 
 namespace Afpinedac\CommonValueObjects\Tests\Unit\Numeric;
 
-use Afpinedac\CommonValueObjects\ValueObjects\Numeric\Percentage;
+use Afpinedac\CommonValueObjects\Numeric\Percentage;
 
 describe('Percentage Value Object', function () {
 

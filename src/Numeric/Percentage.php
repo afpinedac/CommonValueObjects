@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Afpinedac\CommonValueObjects\ValueObjects\Numeric;
+namespace Afpinedac\CommonValueObjects\Numeric;
 
 class Percentage
 {

@@ -1,6 +1,14 @@
 {
     "name": "afpinedac/common-value-objects",
-    "require": {
+    "description": "A collection of reusable value objects for PHP",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andrés Pineda",
+            "email": "afpinedac@gmail.com"
+        }
+    ],
+    "require-dev": {
         "pestphp/pest": "^3.7"
     },
     "autoload": {
@@ -13,14 +21,12 @@
             "Afpinedac\\CommonValueObjects\\Test\\": "tests"
         }
     },
-    "authors": [
-        {
-            "name": "afpinedac"
-        }
-    ],
     "config": {
         "allow-plugins": {
             "pestphp/pest-plugin": true
         }
+    },
+    "require": {
+        "php": ">=8.0"
     }
 }
