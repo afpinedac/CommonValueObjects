@@ -25,13 +25,10 @@ composer require afpinedac/common-value-objects
 
 ## 📂 Available Value Objects
 
-| **Class**       | **Description**                              |
-|------------------|----------------------------------------------|
+| **Class**        | **Description**                             |
+|------------------|---------------------------------------------|
 | **Percentage**   | Represents a percentage value (e.g., 25%)   |
-| **Latitude**     | Represents a valid latitude coordinate       |
-| **Money**        | Handles monetary values with currency        |
-| **EmailAddress** | Validates and encapsulates an email address  |
-| **FullName**     | Stores and validates a person's full name    |
+| **URL**          | Represents a valid URL                      |
 
 ---
 

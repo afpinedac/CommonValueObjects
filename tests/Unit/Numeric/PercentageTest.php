@@ -1,6 +1,6 @@
 <?php
 
-namespace Afpinedac\CommonValueObjects\Tests\Unit\Numeric;
+namespace Tests\Unit\Numeric;
 
 use Afpinedac\CommonValueObjects\Numeric\Percentage;
 
