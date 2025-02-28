@@ -1,0 +1,26 @@
+{
+    "name": "afpinedac/common-value-objects",
+    "require": {
+        "pestphp/pest": "^3.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Afpinedac\\CommonValueObjects\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Afpinedac\\CommonValueObjects\\Test\\": "tests"
+        }
+    },
+    "authors": [
+        {
+            "name": "afpinedac"
+        }
+    ],
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
